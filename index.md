@@ -28,7 +28,7 @@ eventbrite: 45450254936 # optional: alphanumeric key for Eventbrite registration
   And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-Registration is required and will be available here starting May 7, 2018 at 5:00pm. Make sure to read all details below before registering and to choose appropriately between UW-Madison's Data Carpentry and Software Carpentry workshops.
+Registration is required and will be available here starting May 9, 2018 at 5 pm. Make sure to read all details below before registering and to choose appropriately between UW-Madison's Data Carpentry and Software Carpentry workshops.
 
 {% comment %}
   EVENTBRITE
