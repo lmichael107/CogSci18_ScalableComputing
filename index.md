@@ -288,14 +288,13 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
   {% elsif page.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  workshop, you will need access to the software described below. In addition, you will need an up-to-date web browser.
+  We will use both terminal ("shell" or "command-line" interface) and GUI text editors at different times in the workshop, so pay careful attention to the text editors that are available for your system (several are listed below) and make sure that you are using at least one terminal and one GUI editor with which you are comfortable. Above all else, your GUI text editor must save documents as plain text (UTF-8 encoding).
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">SWC Configuration Problems and Solutions wiki page</a>.
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
@@ -450,11 +449,15 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
   <p>
     When you're writing code, it's nice to have a text editor that is
     optimized for writing code, with features like automatic
-    color-coding of key words.  The default text editor on macOS and
-    Linux is usually set to Vim, which is not famous for being
-    intuitive.  if you accidentally find yourself stuck in it, try
+    color-coding of key words. These are often GUI editors that save 
+    documents in plain text format, with several listed below for each 
+    platform. In the terminal window, the default text editor on macOS and
+    Linux is usually set to Vim ("vi"), which is not famous for being
+    intuitive. If you accidentally find yourself stuck in it, try
     typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
-    exclamation mark), then hitting Return to return to the shell.
+    exclamation mark), then hitting Return to return to the shell. Instructors
+    will often use the nano editor in the terminal window, which is a little 
+    easier to use when just starting out.
   </p>
 
   <div class="row">
@@ -462,7 +465,7 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
       <h4 id="editor-windows">Windows</h4>
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <p>
-        nano is a basic editor and the default that instructors use in the workshop.
+        nano is a basic terminal-based text editor and the default that instructors use in the workshop.
         To install it,
         download the <a href="{{site.swc_installer}}">
           {% if page.carpentry == "swc" %}
@@ -478,39 +481,44 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
         <strong>This installer requires an active internet connection.</strong>
       </p>
       <p>
-        Others editors that you can use are
-        <a href="http://notepad-plus-plus.org/">Notepad++</a> or
+        A number of GUI editors are available for Windows including
+        <a href="http://notepad-plus-plus.org/">Notepad++</a>,
+	<a href="https://www.activestate.com/komodo-ide/downloads/edit">Komodo Edit</a>, and
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
-        <strong>Be aware that you must
-          add its installation directory to your system path.</strong>
+        <strong>Be aware that you must add its installation directory
+	to your system path.</strong>
         Please ask your instructor to help you do this.
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="editor-macosx">macOS</h4>
       <p>
-        nano is a basic editor and the default that instructors use in the workshop.
+        nano is a basic terminal-based text editor and the default that instructors use in the workshop.
         See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
         for an example on how to open nano.
-        It should be pre-installed.
+        It should be pre-installed in the Linux distribution that underlies the macOS.
       </p>
       <p>
-        Others editors that you can use are
-        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        A number of GUI editors are available for macOS including
+        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler (formerly BBEdit)</a>,
+	<a href="http://www.sublimetext.com/">Sublime Text</a>,
+	<a href="https://atom.io/">Atom</a>, and
+	<a href="https://www.geany.org/Download/Releases">Geany</a>.
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="editor-linux">Linux</h4>
       <p>
         nano is a basic editor and the default that instructors use in the workshop.
-        It should be pre-installed.
+        It should be pre-installed as a part of your Linux distribution.
       </p>
       <p>
-        Others editors that you can use are
+        A number of GUI editors are available for Linux including
         <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
-        <a href="http://kate-editor.org/">Kate</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        <a href="http://kate-editor.org/">Kate</a>,
+	<a href="https://www.geany.org/Download/Releases">Geany</a>,
+        <a href="http://www.sublimetext.com/">Sublime Text</a>, and
+	<a href="https://atom.io/">Atom</a>.
       </p>
     </div>
   </div>
