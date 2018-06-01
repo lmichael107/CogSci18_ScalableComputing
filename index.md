@@ -562,7 +562,8 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
         <li>Download the Python 3 installer for Windows.</li>
-        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
+        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>. This may include a check-box to have Anaconda add your new version of Python to your PATH variable, which <strong>you do want to make sure is checked</a>.</li>
+	<li>Anaconda does not require administrative priviliges on your computer. A recent update to the Anaconda installer may include the option to install one or more components of Microsoft Visual Studio, which <strong>will</strong> require administrative privileges if yours is a shared computer. If you do have such access, Visual Studio offers an integrated development environment for your programming activities, but we will not be using it in the SWC workshop time.
       </ol>
     </div>
     <div class="col-md-4">
