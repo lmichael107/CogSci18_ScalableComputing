@@ -181,12 +181,12 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
 
 <hr/>
 
-{% comment %} 
- SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% comment %}
+ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 
-{% if page.carpentry == "swc" %} 
+{% if page.carpentry == "swc" %}
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -449,14 +449,14 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
   <p>
     When you're writing code, it's nice to have a text editor that is
     optimized for writing code, with features like automatic
-    color-coding of key words. These are often GUI editors that save 
-    documents in plain text format, with several listed below for each 
+    color-coding of key words. These are often GUI editors that save
+    documents in plain text format, with several listed below for each
     platform. In the terminal window, the default text editor on macOS and
     Linux is usually set to Vim ("vi"), which is not famous for being
     intuitive. If you accidentally find yourself stuck in it, try
     typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
     exclamation mark), then hitting Return to return to the shell. Instructors
-    will often use the nano editor in the terminal window, which is a little 
+    will often use the nano editor in the terminal window, which is a little
     easier to use when just starting out.
   </p>
 
@@ -476,17 +476,17 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
           Library Carpentry
           {% endif %}
           Windows installer
-	</a>
+    </a>
         and double click on the file to run it.
         <strong>This installer requires an active internet connection.</strong>
       </p>
       <p>
         A number of GUI editors are available for Windows including
         <a href="http://notepad-plus-plus.org/">Notepad++</a>,
-	<a href="https://www.activestate.com/komodo-ide/downloads/edit">Komodo Edit</a>, and
+    <a href="https://www.activestate.com/komodo-ide/downloads/edit">Komodo Edit</a>, and
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
         <strong>Be aware that you must add its installation directory
-	to your system path.</strong>
+    to your system path.</strong>
         Please ask your instructor to help you do this.
       </p>
     </div>
@@ -501,9 +501,9 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
       <p>
         A number of GUI editors are available for macOS including
         <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler (formerly BBEdit)</a>,
-	<a href="http://www.sublimetext.com/">Sublime Text</a>,
-	<a href="https://atom.io/">Atom</a>, and
-	<a href="https://www.geany.org/Download/Releases">Geany</a>.
+    <a href="http://www.sublimetext.com/">Sublime Text</a>,
+    <a href="https://atom.io/">Atom</a>, and
+    <a href="https://www.geany.org/Download/Releases">Geany</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -516,9 +516,9 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
         A number of GUI editors are available for Linux including
         <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
         <a href="http://kate-editor.org/">Kate</a>,
-	<a href="https://www.geany.org/Download/Releases">Geany</a>,
+    <a href="https://www.geany.org/Download/Releases">Geany</a>,
         <a href="http://www.sublimetext.com/">Sublime Text</a>, and
-	<a href="https://atom.io/">Atom</a>.
+    <a href="https://atom.io/">Atom</a>.
       </p>
     </div>
   </div>
@@ -562,8 +562,8 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
         <li>Download the Python 3 installer for Windows.</li>
-        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>. This may include a check-box to have Anaconda add your new version of Python to your PATH variable, which <strong>you do want to make sure is checked</a>.</li>
-	<li>Anaconda does not require administrative priviliges on your computer. A recent update to the Anaconda installer may include the option to install one or more components of Microsoft Visual Studio, which <strong>will</strong> require administrative privileges if yours is a shared computer. If you do have such access, Visual Studio offers an integrated development environment for your programming activities, but we will not be using it in the SWC workshop time.
+        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>. This may include a check-box to have Anaconda add your new version of Python to your PATH variable, which <strong>you do want to make sure is checked.</strong></li>
+        <li>Anaconda does not require administrative priviliges on your computer. A recent update to the Anaconda installer may include the option to install one or more components of Microsoft Visual Studio, which <strong>will</strong> require administrative privileges if yours is a shared computer. If you do have such access, Visual Studio offers an integrated development environment for your programming activities, but we will not be using it in the SWC workshop time. </li>
       </ol>
     </div>
     <div class="col-md-4">
