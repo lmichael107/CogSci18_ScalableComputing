@@ -181,12 +181,12 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
 
 <hr/>
 
-{% comment %} 
- SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% comment %}
+ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 
-{% if page.carpentry == "swc" %} 
+{% if page.carpentry == "swc" %}
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -311,41 +311,34 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
-        <li>Run the installer and follow the steps bellow:
-          <ol>
+        <li>Run the installer and follow the steps. Be sure to look for the following options:
+          <ul>
             {% comment %} Git 2.8.2 Setup {% endcomment %}
             {% comment %} Information {% endcomment %}
-            <li>Click on "Next".</li>
-            {% comment %} Select Components {% endcomment %}
-            <li>Click on "Next".</li>
-            {% comment %} Adjusting your PATH environment {% endcomment %}
             <li>
               <strong>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
+                Keep "Use Git from the Windows Command Prompt" selected.
               </strong>
                 If you forgot to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
             </li>
             {% comment %} Choosing the SSH executable {% endcomment %}
-            <li>Click on "Next".</li>
-            {% comment %} Configuring the line ending conversions {% endcomment %}
             <li>
               <strong>
-                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
+                Keep "Checkout Windows-style, commit Unix-style line endings" selected.
               </strong>
             </li>
             {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
             <li>
               <strong>
-                Keep "Use Windows' default console window" selected and click on "Next".
+                Keep "Use Windows' default console window" selected.
               </strong>
             </li>
             {% comment %} Configuring experimental performance tweaks {% endcomment %}
             <li>Click on "Install".</li>
             {% comment %} Installing {% endcomment %}
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
-            <li>Click on "Finish".</li>
-          </ol>
+          </ul>
         </li>
         <li>
           If your "HOME" environment variable is not set (or you don't know what this is):
@@ -449,14 +442,14 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
   <p>
     When you're writing code, it's nice to have a text editor that is
     optimized for writing code, with features like automatic
-    color-coding of key words. These are often GUI editors that save 
-    documents in plain text format, with several listed below for each 
+    color-coding of key words. These are often GUI editors that save
+    documents in plain text format, with several listed below for each
     platform. In the terminal window, the default text editor on macOS and
     Linux is usually set to Vim ("vi"), which is not famous for being
     intuitive. If you accidentally find yourself stuck in it, try
     typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
     exclamation mark), then hitting Return to return to the shell. Instructors
-    will often use the nano editor in the terminal window, which is a little 
+    will often use the nano editor in the terminal window, which is a little
     easier to use when just starting out.
   </p>
 
@@ -563,7 +556,7 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
         <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>. This may include a check-box to have Anaconda add your new version of Python to your PATH variable, which <strong>you do want to make sure is checked</a>.</li>
-	<li>Anaconda does not require administrative priviliges on your computer. A recent update to the Anaconda installer may include the option to install one or more components of Microsoft Visual Studio, which <strong>will</strong> require administrative privileges if yours is a shared computer. If you do have such access, Visual Studio offers an integrated development environment for your programming activities, but we will not be using it in the SWC workshop time.
+	<li>Anaconda does not require administrative priviliges on your computer. A recent update to the Anaconda installer may include the option to install one or more components of Microsoft Visual Studio, which <strong>will</strong> require administrative privileges if yours is a shared computer. If you do have such access, Visual Studio offers an integrated development environment for your programming activities, but we will not be using it in the SWC workshop time.</li>
       </ol>
     </div>
     <div class="col-md-4">
@@ -617,4 +610,3 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-
