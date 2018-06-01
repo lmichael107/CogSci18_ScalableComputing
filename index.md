@@ -11,7 +11,7 @@ humantime: "8:30 am - 4:30 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2018-06-06      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-06-07        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Kalin Kiesling", "Matthew Garcia", "Taylor Scott", "Patrick Shriwise"] # boxed, comma-separated list of instructors' names as strings
-helper: ["Stephen Meyer", "Dorothea Salo", "Christina Koch", "Lauren Michael"] # boxed, comma-separated list of helpers' names
+helper: ["Stephen Meyer", "Dorothea Salo", "Brian Cornille", "Christina Koch", "Lauren Michael"] # boxed, comma-separated list of helpers' names
 email: ["megarcia@wisc.edu"] # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions
 collaborative_notes: http://pad.software-carpentry.org/2018-06-06-uwmadison-swc # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 45450254936 # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
