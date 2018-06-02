@@ -469,17 +469,17 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
           Library Carpentry
           {% endif %}
           Windows installer
-	</a>
+    </a>
         and double click on the file to run it.
         <strong>This installer requires an active internet connection.</strong>
       </p>
       <p>
         A number of GUI editors are available for Windows including
         <a href="http://notepad-plus-plus.org/">Notepad++</a>,
-	<a href="https://www.activestate.com/komodo-ide/downloads/edit">Komodo Edit</a>, and
+    <a href="https://www.activestate.com/komodo-ide/downloads/edit">Komodo Edit</a>, and
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
         <strong>Be aware that you must add its installation directory
-	to your system path.</strong>
+    to your system path.</strong>
         Please ask your instructor to help you do this.
       </p>
     </div>
@@ -494,9 +494,9 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
       <p>
         A number of GUI editors are available for macOS including
         <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler (formerly BBEdit)</a>,
-	<a href="http://www.sublimetext.com/">Sublime Text</a>,
-	<a href="https://atom.io/">Atom</a>, and
-	<a href="https://www.geany.org/Download/Releases">Geany</a>.
+    <a href="http://www.sublimetext.com/">Sublime Text</a>,
+    <a href="https://atom.io/">Atom</a>, and
+    <a href="https://www.geany.org/Download/Releases">Geany</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -509,9 +509,9 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
         A number of GUI editors are available for Linux including
         <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
         <a href="http://kate-editor.org/">Kate</a>,
-	<a href="https://www.geany.org/Download/Releases">Geany</a>,
+    <a href="https://www.geany.org/Download/Releases">Geany</a>,
         <a href="http://www.sublimetext.com/">Sublime Text</a>, and
-	<a href="https://atom.io/">Atom</a>.
+    <a href="https://atom.io/">Atom</a>.
       </p>
     </div>
   </div>
