@@ -311,41 +311,34 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
-        <li>Run the installer and follow the steps bellow:
-          <ol>
+        <li>Run the installer and follow the steps. Be sure to look for the following options:
+          <ul>
             {% comment %} Git 2.8.2 Setup {% endcomment %}
             {% comment %} Information {% endcomment %}
-            <li>Click on "Next".</li>
-            {% comment %} Select Components {% endcomment %}
-            <li>Click on "Next".</li>
-            {% comment %} Adjusting your PATH environment {% endcomment %}
             <li>
               <strong>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
+                Keep "Use Git from the Windows Command Prompt" selected.
               </strong>
                 If you forgot to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
             </li>
             {% comment %} Choosing the SSH executable {% endcomment %}
-            <li>Click on "Next".</li>
-            {% comment %} Configuring the line ending conversions {% endcomment %}
             <li>
               <strong>
-                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
+                Keep "Checkout Windows-style, commit Unix-style line endings" selected.
               </strong>
             </li>
             {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
             <li>
               <strong>
-                Keep "Use Windows' default console window" selected and click on "Next".
+                Keep "Use Windows' default console window" selected.
               </strong>
             </li>
             {% comment %} Configuring experimental performance tweaks {% endcomment %}
             <li>Click on "Install".</li>
             {% comment %} Installing {% endcomment %}
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
-            <li>Click on "Finish".</li>
-          </ol>
+          </ul>
         </li>
         <li>
           If your "HOME" environment variable is not set (or you don't know what this is):
@@ -562,8 +555,8 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
         <li>Download the Python 3 installer for Windows.</li>
-        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>. This may include a check-box to have Anaconda add your new version of Python to your PATH variable, which <strong>you do want to make sure is checked.</strong></li>
-        <li>Anaconda does not require administrative priviliges on your computer. A recent update to the Anaconda installer may include the option to install one or more components of Microsoft Visual Studio, which <strong>will</strong> require administrative privileges if yours is a shared computer. If you do have such access, Visual Studio offers an integrated development environment for your programming activities, but we will not be using it in the SWC workshop time. </li>
+        <li>During installation for Python 3 check the box <strong>Add Anaconda to my PATH environment variable</strong>.</li>
+        <li>Anaconda does not require administrative priviliges on your computer. A recent update to the Anaconda installer may include the option to install one or more components of Microsoft Visual Studio, which <strong>will</strong> require administrative privileges if yours is a shared computer. If you do have such access, Visual Studio offers an integrated development environment for your programming activities, but we will not be using it in the SWC workshop time.</li>
       </ol>
     </div>
     <div class="col-md-4">
@@ -617,4 +610,3 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-
