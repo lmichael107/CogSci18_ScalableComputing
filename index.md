@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"      # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Cognitive Science Society 2018 at UW-Madison" # brief name of host site without address (e.g., "Euphoric State University")
-address: "Monona Terrace, 1 John Nolen Dr, Madison, WI 53703 # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Monona Terrace, 1 John Nolen Dr, Madison, WI 53703" # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "US"         # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "EN"        # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "43.071771,-89.380308" # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
