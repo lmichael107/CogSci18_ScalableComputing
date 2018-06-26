@@ -1,20 +1,20 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"      # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "Software Carpentry @ UW-Madison" # brief name of host site without address (e.g., "Euphoric State University")
-address: "Sterling Hall, room 2425" # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+venue: "Cognitive Science Society 2018 at UW-Madison" # brief name of host site without address (e.g., "Euphoric State University")
+address: "Hilton Madison Monona Terrace, 9 E Wilson Street, Madison, WI 53703 # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "US"         # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "EN"        # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "43.074437,-89.405801" # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "June 6-7, 2018" # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "8:30 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-06-06      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-06-07        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Kalin Kiesling", "Matthew Garcia", "Taylor Scott", "Patrick Shriwise"] # boxed, comma-separated list of instructors' names as strings
-helper: ["Stephen Meyer", "Dorothea Salo", "Brian Cornille", "Christina Koch", "Lauren Michael"] # boxed, comma-separated list of helpers' names
-email: ["megarcia@wisc.edu"] # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions
-collaborative_notes: http://pad.software-carpentry.org/2018-06-06-uwmadison-swc # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: 45450254936 # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+latlng: "43.072663,-89.380564" # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "July 25, 2018" # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "8:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2018-06-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-06-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Christopher Cox", "Lauren Michael"] # boxed, comma-separated list of instructors' names as strings
+helper: ["All Instructors"]   # boxed, comma-separated list of helpers' names
+email: ["lmichael@wisc.edu"]   # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions
+collaborative_notes: # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -28,7 +28,7 @@ eventbrite: 45450254936 # optional: alphanumeric key for Eventbrite registration
   And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-Registration is required and will be available here starting May 9, 2018 at 5 pm. Make sure to read all details below before registering and to choose appropriately between UW-Madison's Data Carpentry and Software Carpentry workshops.
+Registration in CogSci 2018's tutorials are required for participation. Make sure to read all details below before attempting to attend.
 
 {% comment %}
   EVENTBRITE
@@ -118,7 +118,9 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
+  on. 
+  
+  <!-- They should have a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
@@ -128,14 +130,15 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
   Library Carpentry's
   {% endif %}
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  -->
 </p>
 
 {% comment %}
   ACCESSIBILITY
-
   Modify the block below if there are any barriers to accessibility or
   special instructions.
 {% endcomment %}
+<!--
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
@@ -153,6 +156,7 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+-->
 
 {% comment %}
   CONTACT EMAIL ADDRESS
@@ -218,6 +222,7 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
   {% include lc/schedule.html %}
 {% endif %}
 
+<!--
 {% comment %}
   Collaborative Notes
 
@@ -235,6 +240,7 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
 {% endif %}
 
 <hr/>
+-->
 
 {% comment %}
   SYLLABUS
@@ -265,6 +271,7 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
 
 <hr/>
 
+<!--
 {% comment %}
   SETUP
 
@@ -610,3 +617,4 @@ Registration is required and will be available here starting May 9, 2018 at 5 pm
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
+-->
