@@ -56,12 +56,14 @@ Registration in CogSci 2018's tutorials are required for participation. Make sur
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 {% endcomment %}
+<p>
 This day of tutorials will provide an introduction to large-scale computing modes and resources available 
 to cognitive neuroscientists in the U.S., with emphasis on high-throughput computing. After discussing 
 the best scaling approaches for various computational approaches in cognitive neuroscience, learners will 
 execute several examples of scalable computing on national computing resources including the Open Science 
 Grid (OSG) and Neuroscience Gateway. Participants will be encouraged to help one another and to apply what they have learned to their own research problems. Portions of the materials will be adapted from other training resources, 
 as cited within.
+</p>
 <!--
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
@@ -70,7 +72,7 @@ as cited within.
 {% elsif page.carpentry == "lc" %}
   {% include lc/intro.html %}
 {% endif %}
---.
+-->
 
 {% comment %}
   AUDIENCE
