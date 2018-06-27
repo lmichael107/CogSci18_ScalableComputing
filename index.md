@@ -56,6 +56,13 @@ Registration in CogSci 2018's tutorials are required for participation. Make sur
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 {% endcomment %}
+This day of tutorials will provide an introduction to large-scale computing modes and resources available 
+to cognitive neuroscientists in the U.S., with emphasis on high-throughput computing. After discussing 
+the best scaling approaches for various computational approaches in cognitive neuroscience, learners will 
+execute several examples of scalable computing on national computing resources including the Open Science 
+Grid (OSG) and Neuroscience Gateway. Participants will be encouraged to help one another and to apply what they have learned to their own research problems. Portions of the materials will be adapted from other training resources, 
+as cited within.
+<!--
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
@@ -63,6 +70,7 @@ Registration in CogSci 2018's tutorials are required for participation. Make sur
 {% elsif page.carpentry == "lc" %}
   {% include lc/intro.html %}
 {% endif %}
+--.
 
 {% comment %}
   AUDIENCE
@@ -70,6 +78,10 @@ Registration in CogSci 2018's tutorials are required for participation. Make sur
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 {% endcomment %}
+<p id="audience">
+  <strong>Who:</strong> The course is aimed at neuroscience researchers registered for CogSci 2018's workshop and tutorial day (July 25). Some prior experience with computational research is recommended. However, you don't need to have any previous knowledge of the specific tools that will be presented at the workshop. 
+</p>
+<!--
 {% if page.carpentry == "swc" %}
   {% include sc/who.html %}
 {% elsif page.carpentry == "dc" %}
@@ -77,6 +89,7 @@ Registration in CogSci 2018's tutorials are required for participation. Make sur
 {% elsif page.carpentry == "lc" %}
   {% include lc/who.html %}
 {% endif %}
+-->
 
 {% comment %}
   LOCATION
@@ -186,12 +199,13 @@ Registration in CogSci 2018's tutorials are required for participation. Make sur
 <hr/>
 
 {% comment %}
- SURVEYS - DO NOT EDIT SURVEY LINKS
+ SURVEYS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 
 {% if page.carpentry == "swc" %}
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<p>Please be sure to complete these surveys before and after the workshop. (Coming Soon)</p>
+<!--
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "dc" %}
@@ -201,7 +215,7 @@ Registration in CogSci 2018's tutorials are required for participation. Make sur
 {% elsif page.carpentry == "lc" %}
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
-
+-->
 <hr/>
 
 
@@ -259,6 +273,7 @@ Registration in CogSci 2018's tutorials are required for participation. Make sur
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
+<!--
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
@@ -268,7 +283,7 @@ Registration in CogSci 2018's tutorials are required for participation. Make sur
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
 {% endif %}
-
+-->
 <hr/>
 
 <!--
