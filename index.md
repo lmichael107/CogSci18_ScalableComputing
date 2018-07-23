@@ -340,20 +340,20 @@ cogsci50@training.osgconnect.net's password:<i>passwordinvisible</i>
 
 <h4>Windows (any)</h4>
 <p>
-  For Windows laptops, you can download a common SSH tool called Putty 
-  from by going to the <a href="https://www.putty.org/">putty.org</a> 
-  website. Click the link for "You can download putty here", then select 
-  the "putty-0.70-installer.msi" file under "Package files" > "MSI 
+  For Windows laptops, you can download a common SSH tool called <b>PuTTY</b>
+  from by going to the <a href="https://www.putty.org/"><b>putty.org</b></a> 
+  website. Click the link for "<b>You can download PuTTY here</b>", then select 
+  the "<b>putty-0.70-installer.msi</b>" file under "Package files" > "MSI 
   (‘Windows Installer’)" to download the installer.
 </p>
 <p>
-  After installing Putty, open the program and enter the following into the 
-  "Putty Configuration" box that appears, before clicking "Open":
+  After installing PuTTY using the installer, open the program and enter the 
+  following into the Putty Configuration box, before clicking "Open":
 </p>
-```markdown
-  **Host Name**: training.osgconnect.net
-  **Port**: 22
-```
+<pre>
+  <b>Host Name</b>: training.osgconnect.net
+  <b>Port</b>: 22
+</pre>
 <p>
   When prompted for your username and password, use the information on 
   your printed sheet.
