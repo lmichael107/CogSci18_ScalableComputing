@@ -206,7 +206,7 @@ as cited within.
 <h2 id="surveys">Surveys</h2>
 
 {% if page.carpentry == "swc" %}
-<p>Please be sure to complete these surveys before and after the workshop. (Coming Soon)</p>
+<p>Please be sure to complete these surveys before and after the workshop.</p>
 
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfvsP45OQNk8VddpPnQ8HM-fMyErOzcTpN0UnsD8EVEwudWKw/viewform?usp=sf_link">Pre-workshop Survey</a></p>
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdSovKPKqMyPFSSEi-tp6JaLN-6OyZoGBzxft2YhSdB9kHWPw/viewform?usp=sf_link">Post-workshop Survey</a></p>
@@ -308,8 +308,9 @@ as cited within.
 
 <h3 id="OSG Connect">OSG Connect Training Server</h3>
 
-<p>You will be logging into the <a href="https://osgconnect.net/">
-  OSG Connect</q> training server (training.osgconnet.net) using the 
+<p>
+  You will be logging into the <a href="https://osgconnect.net/">
+  OSG Connect</a> training server (training.osgconnet.net) using the 
   username and password on your sheet of paper. Please
   verify that you are able to create a secure shell (SSH) connnection 
   using one of the below two methods, according to the capabilities of 
@@ -328,15 +329,12 @@ as cited within.
   Open your "Terminal" program and log in with the username and password 
   on your sheet with a command like the following:
 </p>
-~~~
+```shell
 $ ssh cogsci99@training.osgconnect.net
-~~~
-{: .language-bash}
-
-~~~
+```
+```
 cogsci50@training.osgconnect.net's password:passwordinvisible
-~~~
-{: .output}
+```
 
 <p>If you get an error message when trying the above, please raise your 
   hand to get help ASAP!
@@ -354,19 +352,16 @@ cogsci50@training.osgconnect.net's password:passwordinvisible
   After installing Putty, open the program and enter the following into the 
   "Putty Configuration" box that appears, before clicking "Open":
 </p>
-<p>
-  <b>Host Name</b>: training.osgconnect.net
-  <b>Port</b>: 22
-</p>
+```markdown
+  **Host Name**: training.osgconnect.net
+  **Port**: 22
+```
 <p>
   When prompted for your username and password, use the information on 
   your printed sheet.
 </p>
 
 <h3>Neuroscience Gateway (NSG) Web Portal</h3>
-
-**Make sure to complete the below ASAP, so that the Neuroscience Gateway 
-team can approve your full account in time for the afternoon NSG exercise!**
 
 <p>
   Complete the <a href="https://www.nsgportal.org/gest/reg.php">NSG 
