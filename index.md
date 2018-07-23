@@ -329,12 +329,10 @@ as cited within.
   Open your "Terminal" program and log in with the username and password 
   on your sheet with a command like the following:
 </p>
-```shell
+<pre>
 $ ssh cogsci99@training.osgconnect.net
-```
-```
 cogsci50@training.osgconnect.net's password:passwordinvisible
-```
+</pre>
 
 <p>If you get an error message when trying the above, please raise your 
   hand to get help ASAP!
