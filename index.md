@@ -287,7 +287,6 @@ as cited within.
 -->
 <hr/>
 
-<!--
 {% comment %}
   SETUP
 
@@ -300,6 +299,82 @@ as cited within.
   'tools/check' as well.
 {% endcomment %}
 
+<h2 id="setup">Setup</h2>
+
+<p>
+  You will be logging into two different computing services, so you'll 
+  need to complete the below instructions during the Setup portion of 
+  today's schedule.
+
+<h3 id="OSG Connect">OSG Connect Training Server</h3>
+
+<p>You will be logging into the <a href="https://osgconnect.net/">
+  OSG Connect</q> training server (training.osgconnet.net) using the 
+  username and password on your sheet of paper. Please
+  verify that you are able to create a secure shell (SSH) connnection 
+  using one of the below two methods, according to the capabilities of 
+  the laptop you're using today.
+</p>
+<p>
+  (You can <a href="https://osgconnect.net/#">request a full account on 
+  OSG Connect</a> at any time, but it's important to use the account on 
+  your sheet of paper for today. It's best to only request a full OSG 
+  Connect account if/when you're ready to get some initial help from an
+  OSG Connect team member for real work you're planning to do.)
+</p>
+
+<h4>Mac OS or Linux (or Windows 10, if you've used SSH before)</h4>
+<p>
+  Open your "Terminal" program and log in with the username and password 
+  on your sheet with a command like the following:
+</p>
+~~~
+$ ssh cogsci99@training.osgconnect.net
+~~~
+{: .language-bash}
+
+~~~
+cogsci50@training.osgconnect.net's password:passwordinvisible
+~~~
+{: .output}
+
+<p>If you get an error message when trying the above, please raise your 
+  hand to get help ASAP!
+</p>
+
+<h4>Windows (any)</h4>
+<p>
+  For Windows laptops, you can download a common SSH tool called Putty 
+  from by going to the <a href="https://www.putty.org/">putty.org</a> 
+  website. Click the link for "You can download putty here", then select 
+  the "putty-0.70-installer.msi" file under "Package files" > "MSI 
+  (‘Windows Installer’)" to download the installer.
+</p>
+<p>
+  After installing Putty, open the program and enter the following into the 
+  "Putty Configuration" box that appears, before clicking "Open":
+</p>
+<p>
+  <b>Host Name</b>: training.osgconnect.net
+  <b>Port</b>: 22
+</p>
+<p>
+  When prompted for your username and password, use the information on 
+  your printed sheet.
+</p>
+
+<h3>Neuroscience Gateway (NSG) Web Portal</h3>
+
+**Make sure to complete the below ASAP, so that the Neuroscience Gateway 
+team can approve your full account in time for the afternoon NSG exercise!**
+
+<p>
+  Complete the <a href="https://www.nsgportal.org/gest/reg.php">NSG 
+  registration form</a>, making sure to indicate "CogSci18" as your 
+  "Research Description".
+</p>
+  
+<!--
 <h2 id="setup">Setup</h2>
 
 <p>
