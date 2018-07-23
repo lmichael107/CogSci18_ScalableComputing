@@ -207,9 +207,9 @@ as cited within.
 
 {% if page.carpentry == "swc" %}
 <p>Please be sure to complete these surveys before and after the workshop. (Coming Soon)</p>
-<!--
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfvsP45OQNk8VddpPnQ8HM-fMyErOzcTpN0UnsD8EVEwudWKw/viewform?usp=sf_link">Pre-workshop Survey</a></p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdSovKPKqMyPFSSEi-tp6JaLN-6OyZoGBzxft2YhSdB9kHWPw/viewform?usp=sf_link">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "dc" %}
   <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
@@ -217,7 +217,6 @@ as cited within.
 {% elsif page.carpentry == "lc" %}
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
--->
 <hr/>
 
 
