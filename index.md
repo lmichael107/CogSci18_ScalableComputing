@@ -330,8 +330,8 @@ as cited within.
   on your sheet with a command like the following:
 </p>
 <pre>
-$ ssh cogsci99@training.osgconnect.net
-cogsci50@training.osgconnect.net's password:passwordinvisible
+$ ssh <i>cogsci99</i>@training.osgconnect.net
+cogsci50@training.osgconnect.net's password:<i>passwordinvisible</i>
 </pre>
 
 <p>If you get an error message when trying the above, please raise your 
