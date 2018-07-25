@@ -330,7 +330,7 @@ as cited within.
   on your sheet with a command like the following:
 </p>
 <pre>
-$ ssh <i>cogsci99</i>@training.osgconnect.net
+$ ssh <i>cogsci50</i>@training.osgconnect.net
 cogsci50@training.osgconnect.net's password:<i>passwordinvisible</i>
 </pre>
 
